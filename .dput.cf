@@ -1,0 +1,15 @@
+[DEFAULT]
+default_host_main=debian
+
+[debian]
+login=anonymous
+fqdn=ftp.upload.debian.org
+incoming=/pub/UploadQueue
+method=ftp
+allow_dcut=yes
+
+[burger]
+login=apt-repo
+fqdn=burger.dottedmag.net
+incoming=/srv/apt-repo/incoming
+method=rsync
